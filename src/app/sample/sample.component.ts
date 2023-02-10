@@ -6,5 +6,5 @@ import { Component, VERSION } from '@angular/core';
   styleUrls: ['./sample.component.css'],
 })
 export class SampleComponent {
-  name = 'In sample Works';
+  name = 'R';
 }
