@@ -1,10 +1,16 @@
-import { Component, VERSION } from '@angular/core';
+import { Component, VERSION, OnChanges } from '@angular/core';
 
 @Component({
   selector: 'sample-main',
   templateUrl: './sample.component.html',
   styleUrls: ['./sample.component.css'],
 })
-export class SampleComponent {
-  name = 'R';
+export class SampleComponent  {
+  name = 'Sample';
+
+  ngOnchanges(chnges SimpleChnages)
+  {
+    console.log(chnges);
+
+  }
 }
